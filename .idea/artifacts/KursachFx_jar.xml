@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="KursachFx:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/KursachFx_jar</output-path>
+    <root id="archive" name="KursachFx.jar">
+      <element id="module-output" name="KursachFx" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/jsoup-1.12.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$APPLICATION_CONFIG_DIR$/jdbc-drivers/MySQL Connector/J/5.1.47/mysql-connector-java-5.1.47.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

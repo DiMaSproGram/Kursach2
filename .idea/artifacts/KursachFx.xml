@@ -1,0 +1,26 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" build-on-make="true" name="KursachFx">
+    <output-path>D:/PC-creator2</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="sample.Main" />
+        <option name="description" value="" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="icons">
+          <JavaFxApplicationIcons>
+            <option name="windowsIcon" value="$PROJECT_DIR$/icon.ico" />
+          </JavaFxApplicationIcons>
+        </option>
+        <option name="nativeBundle" value="all" />
+        <option name="title" value="PC-creator" />
+        <option name="vendor" value="" />
+        <option name="version" value="" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="KursachFx.jar">
+        <element id="module-output" name="KursachFx" />
+      </element>
+    </root>
+  </artifact>
+</component>

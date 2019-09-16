@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1080.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.CheckDBController">
+   <children>
+      <Label fx:id="lab" layoutX="268.0" layoutY="231.0" prefHeight="94.0" prefWidth="545.0" text="Checking the need to update the database...">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <ProgressIndicator fx:id="progInd" layoutX="472.0" layoutY="400.0" prefHeight="94.0" prefWidth="136.0" progress="0.0" />
+   </children>
+</AnchorPane>

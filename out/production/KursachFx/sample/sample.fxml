@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: #eeeeee;">
+         <children>
+            <Button fx:id="btn" layoutX="1010.0" layoutY="920.0" mnemonicParsing="false" onAction="#click" prefHeight="72.0" prefWidth="150.0" text="Create">
+               <font>
+                  <Font size="28.0" />
+               </font></Button>
+            <Label layoutX="15.0" layoutY="166.0" text="Price">
+               <font>
+                  <Font size="16.0" />
+               </font></Label>
+            <TextField fx:id="textField" layoutX="69.0" layoutY="166.0" onKeyPressed="#keyPress" onKeyReleased="#keyReleased" />
+            <Label layoutX="16.0" layoutY="216.0" text="Goal">
+               <font>
+                  <Font size="16.0" />
+               </font></Label>
+            <ChoiceBox fx:id="choiceBox" layoutX="69.0" layoutY="216.0" prefWidth="150.0" />
+            <TextField fx:id="txtCpu" layoutX="281.0" layoutY="100.0" prefHeight="25.0" prefWidth="290.0" />
+            <TextField fx:id="txtVidCard" layoutX="281.0" layoutY="280.0" prefHeight="25.0" prefWidth="290.0" />
+            <TextField fx:id="txtMothBoard" layoutX="281.0" layoutY="460.0" prefHeight="25.0" prefWidth="290.0" />
+            <TextField fx:id="txtRam" layoutX="285.0" layoutY="640.0" prefHeight="25.0" prefWidth="290.0" />
+            <TextField fx:id="txtHdd" layoutX="281.0" layoutY="840.0" prefHeight="25.0" prefWidth="290.0" />
+            <TextField fx:id="txtSsd" layoutX="1607.0" layoutY="100.0" prefHeight="25.0" prefWidth="290.0" />
+            <TextField fx:id="txtPowSup" layoutX="1607.0" layoutY="350.0" prefHeight="25.0" prefWidth="290.0" />
+            <TextField fx:id="txtCool" layoutX="1607.0" layoutY="600.0" prefHeight="25.0" prefWidth="290.0" />
+            <TextField fx:id="txtCompCase" layoutX="1607.0" layoutY="840.0" prefHeight="25.0" prefWidth="290.0" />
+            <ImageView fx:id="imageView1" fitHeight="800.0" fitWidth="1000.0" layoutX="585.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true" />
+            <Separator layoutX="261.0" orientation="VERTICAL" prefHeight="1080.0" prefWidth="0.0" />
+            <TextField fx:id="totalPrice" layoutX="103.0" layoutY="355.0" prefHeight="25.0" prefWidth="149.0" />
+            <Label layoutX="16.0" layoutY="34.0" prefHeight="70.0" prefWidth="236.0" text="PC-creator">
+               <font>
+                  <Font size="48.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0" startX="0.38571428571428573">
+                     <stops>
+                        <Stop color="#862070" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+            <Separator layoutX="1.0" layoutY="287.0" prefHeight="9.0" prefWidth="262.0" />
+            <Label layoutX="12.0" layoutY="355.0" text="Total price">
+               <font>
+                  <Font size="16.0" />
+               </font></Label>
+            <Label layoutX="285.0" layoutY="76.0" text="CPU">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="285.0" layoutY="253.0" text="Video card">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="281.0" layoutY="433.0" text="Motherboard">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="285.0" layoutY="614.0" text="Ram">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="281.0" layoutY="813.0" text="Hdd">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="1607.0" layoutY="76.0" text="Ssd">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="1607.0" layoutY="573.0" text="Cooler">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="1607.0" layoutY="813.0" text="Computer case">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="1607.0" layoutY="323.0" text="Power supply">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>
